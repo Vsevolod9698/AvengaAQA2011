@@ -42,7 +42,6 @@ public class SiteBooking implements ISearch {
 
 
 
-
     public static void main(String[] args) {
         SiteBooking typeRoom = new SiteBooking();
         System.out.println(typeRoom.searchByTypeOFRooms("Apartments"));
