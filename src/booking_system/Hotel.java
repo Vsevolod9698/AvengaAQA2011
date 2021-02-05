@@ -1,9 +1,5 @@
 package booking_system;
 
-import booking_system.IHotel;
-
-import java.util.List;
-
 public enum Hotel implements IHotel {
     SONATA {
         private final int stars = 4;
@@ -11,11 +7,14 @@ public enum Hotel implements IHotel {
         public int getStars() {
             return stars;
         }
-
+        private final String rooms = "Free";
         @Override
-        public List<String> getFreeRooms() {
-            return null;
+        public String getFreeRooms() {
+            return rooms;
         }
+        private final String typeOfRooms = "Apartments";
+        @Override
+        public String getTypeRooms() { return typeOfRooms; }
 
         @Override
         public void bookRoom(String room) {
@@ -28,10 +27,15 @@ public enum Hotel implements IHotel {
         public int getStars() {
             return stars;
         }
-
+        private final String rooms = "Free";
         @Override
-        public List<String> getFreeRooms() {
-            return null;
+        public String getFreeRooms() {
+            return rooms;
+        }
+        private final String typeOfRooms = "Standard";
+        @Override
+        public String getTypeRooms() {
+            return typeOfRooms;
         }
 
         @Override
@@ -45,10 +49,15 @@ public enum Hotel implements IHotel {
         public int getStars() {
             return stars;
         }
-
+        private final String rooms = "Free";
         @Override
-        public List<String> getFreeRooms() {
-            return null;
+        public String getFreeRooms() {
+            return rooms;
+        }
+        private final String typeOfRooms = "Luxury";
+        @Override
+        public String getTypeRooms() {
+            return typeOfRooms;
         }
 
         @Override
@@ -62,10 +71,15 @@ public enum Hotel implements IHotel {
         public int getStars() {
             return stars;
         }
-
+        private final String rooms = "Free";
         @Override
-        public List<String> getFreeRooms() {
-            return null;
+        public String getFreeRooms() {
+            return rooms;
+        }
+        private final String typeOfRooms = "Apartments";
+        @Override
+        public String getTypeRooms() {
+            return typeOfRooms;
         }
 
         @Override
@@ -79,10 +93,15 @@ public enum Hotel implements IHotel {
         public int getStars() {
             return stars;
         }
-
+        private final String rooms = "Free";
         @Override
-        public List<String> getFreeRooms() {
-            return null;
+        public String getFreeRooms() {
+            return rooms;
+        }
+        private final String typeOfRooms = "Semi-luxury";
+        @Override
+        public String getTypeRooms() {
+            return typeOfRooms;
         }
 
         @Override
@@ -96,10 +115,16 @@ public enum Hotel implements IHotel {
         public int getStars() {
             return stars;
         }
+        private final String rooms = "Free";
 
         @Override
-        public List<String> getFreeRooms() {
-            return null;
+        public String getFreeRooms() {
+            return rooms;
+        }
+        private final String typeOfRooms = "Apartments";
+        @Override
+        public String getTypeRooms() {
+            return typeOfRooms;
         }
 
         @Override
@@ -113,10 +138,16 @@ public enum Hotel implements IHotel {
         public int getStars() {
             return stars;
         }
+        private final String rooms = "Free";
 
         @Override
-        public List<String> getFreeRooms() {
-            return null;
+        public String getFreeRooms() {
+            return rooms;
+        }
+        private final String typeOfRooms = "Luxury";
+        @Override
+        public String getTypeRooms() {
+            return typeOfRooms;
         }
 
         @Override
@@ -130,10 +161,16 @@ public enum Hotel implements IHotel {
         public int getStars() {
             return stars;
         }
+        private final String rooms = "Free";
 
         @Override
-        public List<String> getFreeRooms() {
-            return null;
+        public String getFreeRooms() {
+            return rooms;
+        }
+        private final String typeOfRooms = "Standard";
+        @Override
+        public String getTypeRooms() {
+            return typeOfRooms;
         }
 
         @Override
@@ -147,10 +184,16 @@ public enum Hotel implements IHotel {
         public int getStars() {
             return stars;
         }
+        private final String rooms = "Free";
 
         @Override
-        public List<String> getFreeRooms() {
-            return null;
+        public String getFreeRooms() {
+            return rooms;
+        }
+        private final String typeOfRooms = "Semi-luxury";
+        @Override
+        public String getTypeRooms() {
+            return typeOfRooms;
         }
 
         @Override
@@ -164,10 +207,16 @@ public enum Hotel implements IHotel {
         public int getStars() {
             return stars;
         }
+        private final String rooms = "Free";
 
         @Override
-        public List<String> getFreeRooms() {
-            return null;
+        public String getFreeRooms() {
+            return rooms;
+        }
+        private final String typeOfRooms = "Semi-luxury";
+        @Override
+        public String getTypeRooms() {
+            return typeOfRooms;
         }
 
         @Override
