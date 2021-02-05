@@ -1,10 +1,10 @@
 package booking_system;
 
-import java.util.List;
-
 public interface IHotel {
     int getStars();
-    List<String> getFreeRooms();
+    String getFreeRooms();
+    String getTypeRooms();
+
     void bookRoom(String room);
 
 
