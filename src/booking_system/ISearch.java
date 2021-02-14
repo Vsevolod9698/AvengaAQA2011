@@ -6,4 +6,6 @@ public interface ISearch {
     List<IHotel> search(int stars);
     List<IHotel> searchByFreeRooms(String rooms);
     List<Hotel> searchByTypeOFRooms(String type);
+    List<Hotel> searchByTimeSettlement(String time);
+
 }

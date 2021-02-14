@@ -7,7 +7,7 @@ public enum Hotel implements IHotel {
         public int getStars() {
             return stars;
         }
-        private final String rooms = "Free";
+        private final String rooms = "Busy";
         @Override
         public String getFreeRooms() {
             return rooms;
@@ -15,6 +15,11 @@ public enum Hotel implements IHotel {
         private final String typeOfRooms = "Apartments";
         @Override
         public String getTypeRooms() { return typeOfRooms; }
+
+        private final String settlement = "dd MMMM, YYYY";
+        public String getSettlement() {
+
+            return settlement; }
 
         @Override
         public void bookRoom(String room) {
@@ -36,6 +41,11 @@ public enum Hotel implements IHotel {
         @Override
         public String getTypeRooms() {
             return typeOfRooms;
+        }
+
+        @Override
+        public String getSettlement() {
+            return null;
         }
 
         @Override
@@ -61,6 +71,11 @@ public enum Hotel implements IHotel {
         }
 
         @Override
+        public String getSettlement() {
+            return null;
+        }
+
+        @Override
         public void bookRoom(String room) {
 
         }
@@ -71,7 +86,7 @@ public enum Hotel implements IHotel {
         public int getStars() {
             return stars;
         }
-        private final String rooms = "Free";
+        private final String rooms = "Busy";
         @Override
         public String getFreeRooms() {
             return rooms;
@@ -80,6 +95,11 @@ public enum Hotel implements IHotel {
         @Override
         public String getTypeRooms() {
             return typeOfRooms;
+        }
+
+        @Override
+        public String getSettlement() {
+            return null;
         }
 
         @Override
@@ -102,6 +122,11 @@ public enum Hotel implements IHotel {
         @Override
         public String getTypeRooms() {
             return typeOfRooms;
+        }
+
+        @Override
+        public String getSettlement() {
+            return null;
         }
 
         @Override
@@ -128,6 +153,11 @@ public enum Hotel implements IHotel {
         }
 
         @Override
+        public String getSettlement() {
+            return null;
+        }
+
+        @Override
         public void bookRoom(String room) {
 
         }
@@ -138,7 +168,7 @@ public enum Hotel implements IHotel {
         public int getStars() {
             return stars;
         }
-        private final String rooms = "Free";
+        private final String rooms = "Busy";
 
         @Override
         public String getFreeRooms() {
@@ -148,6 +178,11 @@ public enum Hotel implements IHotel {
         @Override
         public String getTypeRooms() {
             return typeOfRooms;
+        }
+
+        @Override
+        public String getSettlement() {
+            return null;
         }
 
         @Override
@@ -174,6 +209,11 @@ public enum Hotel implements IHotel {
         }
 
         @Override
+        public String getSettlement() {
+            return null;
+        }
+
+        @Override
         public void bookRoom(String room) {
 
         }
@@ -184,7 +224,7 @@ public enum Hotel implements IHotel {
         public int getStars() {
             return stars;
         }
-        private final String rooms = "Free";
+        private final String rooms = "Busy";
 
         @Override
         public String getFreeRooms() {
@@ -194,6 +234,11 @@ public enum Hotel implements IHotel {
         @Override
         public String getTypeRooms() {
             return typeOfRooms;
+        }
+
+        @Override
+        public String getSettlement() {
+            return null;
         }
 
         @Override
@@ -217,6 +262,11 @@ public enum Hotel implements IHotel {
         @Override
         public String getTypeRooms() {
             return typeOfRooms;
+        }
+
+        @Override
+        public String getSettlement() {
+            return null;
         }
 
         @Override
